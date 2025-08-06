@@ -21,3 +21,7 @@ let y = 30;
 // Using destructuring assignment
 [x, y] = [y, x];
 console.log(x, y, "After swap using destructuring assignment");
+
+//! What is Copying in JavaScript?
+//? In JavaScript, primitive types (number, string, boolean, null, undefined, symbol, bigint) are copied by value.
+//? But non-primitive types (object, array, function) are copied by reference — unless you explicitly make a copy.
